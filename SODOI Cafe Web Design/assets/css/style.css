@@ -1,0 +1,191 @@
+.site-container {
+    width: 90%;
+    max-width: none;
+    position: relative;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: inherit;
+}
+
+.site-notification,
+.site-header,
+.site-stick-top {
+    text-align: center;
+}
+
+.site-notification {
+    margin-left: 0;
+    text-decoration: underline;
+    background-color: #f8d7da;
+    padding: 10px;
+}
+
+.site-header,
+.site-stick-top {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-content {
+    padding-bottom: 10px;
+}
+
+.site-stick-top {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1000;
+    padding-bottom: 3px;
+}
+
+
+.img-container {
+    text-align: center;
+}
+
+
+.site-content_main {
+    display: flex;
+    align-items: flex-start;
+}
+
+.left-side,
+.right-side {
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-card {
+    flex: 1;
+    position: relative;
+    margin-bottom: 90px;
+}
+
+.img-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    font-family: 'Fancy Font', cursive;
+    font-size: 50px;
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.image-card:last-child {
+    margin-bottom: 0;
+}
+
+.image-card img:hover {
+    opacity: 0.6;
+}
+
+.image-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-information a {
+    display: block;
+    margin-bottom: 25px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.main-information p {
+    margin-bottom: 1px;
+    font-size: 20px;
+
+}
+
+.main-information h1,
+.main-information a,
+.main-information p {
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 17px;
+}
+
+.site-footer p {
+    margin: 10px 0;
+}
+
+.category-selector {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 17px;
+    color: #ea7b40;
+    font-weight: bolder;
+    font-family: 'Fancy Font', cursive;
+}
+
+.image-card,
+.menu-item {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-picture img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-info {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.page-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.page-nav-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #f47632;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.page-nav-button:hover {
+    background-color: #f7b559;
+}
+
+.left-side .img-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -265px);
+    color: red;
+    font-family: 'Fancy Font', cursive;
+    font-size: 50px;
+    text-decoration: none;
+    pointer-events: none;
+}
